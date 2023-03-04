@@ -17,14 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" image="LaunchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="I2s-HW-Q4d">
-                                <rect key="frame" x="103" y="344" width="209" height="209"/>
-                                <color key="backgroundColor" red="0.76765924689999998" green="0.3860650659" blue="0.0025935615409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" image="LaunchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="I2s-HW-Q4d">
+                                <rect key="frame" x="128" y="369" width="158" height="158"/>
                                 <color key="tintColor" systemColor="secondarySystemFillColor"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XpK-Bq-A7U"/>
-                        <color key="backgroundColor" red="0.76765924689999998" green="0.3860650659" blue="0.0025935615409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.043137254899999998" green="0.16862745100000001" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="I2s-HW-Q4d" firstAttribute="centerY" secondItem="4mO-e4-REQ" secondAttribute="centerY" id="4kv-Qc-mPU"/>
                             <constraint firstItem="I2s-HW-Q4d" firstAttribute="centerX" secondItem="4mO-e4-REQ" secondAttribute="centerX" id="6Z0-rS-c8Q"/>

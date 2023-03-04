@@ -12,11 +12,11 @@ let rootUrl = URL(string: "https://packupapp.com")!
 
 // allowed origin is for what we are sticking to pwa domain
 // This should also appear in Info.plist
-let allowedOrigins: [String] = ["packupapp.com"]
+let allowedOrigins: [String] = ["https://packupapp.com", "https://getpackup.com"]
 
 // auth origins will open in modal and show toolbar for back into the main origin.
 // These should also appear in Info.plist
-let authOrigins: [String] = ["packupapp.com","getpackup.com"]
+let authOrigins: [String] = ["https://auth.packupapp.com", "https://auth.getpackup.com"]
 // allowedOrigins + authOrigins <= 10
 
 let platformCookie = Cookie(name: "app-platform", value: "iOS App Store")
