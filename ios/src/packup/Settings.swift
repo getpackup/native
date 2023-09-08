@@ -16,6 +16,7 @@ let allowedOrigins: [String] = ["https://packupapp.com", "https://getpackup.com"
 
 // auth origins will open in modal and show toolbar for back into the main origin.
 // These should also appear in Info.plist
+// let authOrigins: [String] = ["https://packupapp.com", "https://auth.getpackup.com", "https://accounts.google.com", "https://appleid.apple.com/", "https://www.facebook.com/", "https://twitter.com/", "https://firestore.googleapis.com"]
 let authOrigins: [String] = ["https://auth.packupapp.com", "https://auth.getpackup.com"]
 // allowedOrigins + authOrigins <= 10
 
