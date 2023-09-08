@@ -169,3 +169,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
+ios/src/packup/GoogleService-Info copy.plist
